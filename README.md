@@ -22,11 +22,8 @@ The project demonstrates how Nmap can be used to identify reachable hosts, disco
 
 A ping test was performed to verify connectivity between the Kali Linux machine and the target machine.
 
-```bash
 ping -c 4 192.168.1.5
-'''
-![Connectivity Test](screenshots/01-connectivity.jpg)
-
+screenshots/01-connectivity.jpg
 Step 2 — Basic Port Scan
 
 A basic Nmap scan was performed to identify open ports on the target machine.
