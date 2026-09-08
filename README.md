@@ -23,23 +23,32 @@ The project demonstrates how Nmap can be used to identify reachable hosts, disco
 A ping test was performed to verify connectivity between the Kali Linux machine and the target machine.
 
 ping -c 4 192.168.1.5
+
 screenshots/01-connectivity.jpg
+
 Step 2 — Basic Port Scan
 
 A basic Nmap scan was performed to identify open ports on the target machine.
+
 nmap 192.168.1.5
+
 ![Basic Port Scan](screenshots/02-port-discovery.jpg)
+
 
 Step3 — Service Enumeration
 
 Service and version detection was performed to identify the services running on the discovered ports.
+
 nmap -sV 192.168.1.5
+
 ![Service Enumeration](screenshots/03-service-enumeration.jpg)
 
 Step 4 — OS Detection
 
 OS detection was performed to identify the operating system of the target machine.
+
 nmap -O 192.168.1.5
+
 ![OS Detection](screenshots/04-os-detection.jpg)
 
 
